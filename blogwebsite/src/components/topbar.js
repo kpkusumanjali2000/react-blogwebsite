@@ -1,15 +1,19 @@
 import { Link } from "react-router-dom";
 import "../styles/topbar.css";
+import {FaWhatsapp, FaInstagram, FaFacebook, FaTwitter, FaSearch} from "react-icons/fa";
+
 
 function Topbar() {
   const user = true;
   return (
     <div className="top">
       <div className="topLeft">
-        <i className="topIcon fab fa-facebook-square"></i>
-        <i className="topIcon fab fa-instagram-square"></i>
-        <i className="topIcon fab fa-pinterest-square"></i>
-        <i className="topIcon fab fa-twitter-square"></i>
+        <div className="topIcon">
+        <FaInstagram/>
+        <FaWhatsapp/>
+        <FaFacebook/>
+        <FaTwitter/>
+        </div>
       </div>
       <div className="topCenter">
         <ul className="topList">
@@ -51,7 +55,7 @@ function Topbar() {
             </li>
           </ul>
         )}
-        <i className="topSearchIcon fas fa-search"></i>
+        <FaSearch/>
       </div>
     </div>
   );
