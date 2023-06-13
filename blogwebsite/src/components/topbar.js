@@ -37,7 +37,7 @@ function Topbar() {
           <Link className="link" to="/settings">
             <img
               className="topImg"
-              src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src="https://p7.hiclipart.com/preview/844/244/1013/cartoon-royalty-free-business-women.jpg"
               alt=""
             />
           </Link>
