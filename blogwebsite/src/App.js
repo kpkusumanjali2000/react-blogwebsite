@@ -1,8 +1,6 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
 import Topbar from "../src/components/topbar.js";
-// import Header from "./components/header.js";
-import Home from "./pages/home.js";
-// import Sidebar from "./components/sidebar.js";
+import Home from "../src/pages/home.js";
 
 function App() {
   return (
