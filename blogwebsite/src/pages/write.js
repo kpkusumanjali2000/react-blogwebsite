@@ -1,6 +1,6 @@
 import "../styles/write.css";
 
- function Write() {
+function Write() {
   return (
     <div className="write">
       <img
