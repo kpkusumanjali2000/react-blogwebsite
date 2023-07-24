@@ -27,9 +27,9 @@ function Settings() {
             />
           </div>
           <label>Username</label>
-          <input type="text" placeholder="Safak" name="name" />
+          <input type="text" placeholder="Kusuma" name="name" />
           <label>Email</label>
-          <input type="email" placeholder="safak@gmail.com" name="email" />
+          <input type="email" placeholder="kusuma@gmail.com" name="email" />
           <label>Password</label>
           <input type="password" placeholder="Password" name="password" />
           <button className="settingsSubmitButton" type="submit">
